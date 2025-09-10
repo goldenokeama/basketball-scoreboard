@@ -1,0 +1,108 @@
+@font-face {
+  src: url("CursedTimerUlil-Aznm.ttf");
+  font-family: Cursed Timer ULiL;
+}
+
+body {
+  margin: 0;
+  font-family: Cursed Timer ULiL, sans-serif;
+  color: #eeeeee;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  background: #1b244a;
+  width: 600px;
+  height: 385px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.home-guest-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+
+  line-height: 35.89px;
+  margin: 0;
+  margin-bottom: 21px;
+}
+
+.winner {
+  border-inline: 2px solid greenyellow;
+  padding-inline: 2px;
+}
+
+.point {
+  box-sizing: border-box;
+  width: 155px;
+  height: 120px;
+  background: #080001;
+  border-radius: 5px;
+
+  font-size: 90px;
+  line-height: 126.67px;
+
+  color: #f94f6d;
+  padding-top: 4px;
+}
+
+.btn-panel {
+  margin-top: 26px;
+  width: 165px;
+}
+
+.btn {
+  width: 45px;
+  height: 45px;
+  font-family: inherit;
+
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  background: transparent;
+
+  color: #9aabd8;
+  line-height: 27.81px;
+  font-size: 18px;
+}
+
+.btn:hover {
+  border: 2px solid #f94f6d;
+  color: #f94f6d;
+  box-shadow: 0px 0px 10px #f94f6d;
+  scale: 1.05;
+}
+
+.btn-new-game {
+  width: 155px;
+  margin: 0 auto;
+  font-family: inherit;
+  padding: 10px 0;
+
+  border-radius: 6px;
+  border: 2px solid greenyellow;
+  font-size: 18px;
+
+  background: transparent;
+  color: #f94f6d;
+  box-shadow: 0px 0px 10px greenyellow;
+}
+
+.btn-new-game:hover {
+  color: greenyellow;
+  border-color: #f94f6d;
+  box-shadow: 0px 0px 15px #f94f6d;
+}
