@@ -20,6 +20,10 @@ To run this project, simply:
 3. Click the +1, +2, or +3 buttons to score points for each team.
 4. Click the "New Game" button to reset the score and start over.
 
+## How to view
+
+To view the live project, [click here](https://scoreboard-golden.netlify.app/).
+
 ## Technologies Used
 
 - **HTML:** For the basic structure of the scoreboard.
