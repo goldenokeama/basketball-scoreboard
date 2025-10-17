@@ -1,6 +1,6 @@
 {
   "name": "basketball-scoreboard",
-  "description": "The app is designed to provide a clean and straightforward interface for tracking points for a \"Home\" and \"Guest\" team.",
+  "description": "The app is designed to provide a clean and straightforward interface for tracking points for a 'Home' and 'Guest' team.",
   "scripts": {
     "start": "vite",
     "dev": "vite",
