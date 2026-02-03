@@ -71,11 +71,16 @@ body {
   background: #080001;
   border-radius: 5px;
 
-  font-size: 90px;
+  font-size: 60px;
   line-height: 126.67px;
 
   color: #f94f6d;
   padding-top: 4px;
+}
+@media (min-width: 599px) {
+  .point {
+    font-size: 90px;
+  }
 }
 
 .btn-panel {
