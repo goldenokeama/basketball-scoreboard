@@ -35,13 +35,19 @@ body {
 }
 
 .home-guest-container .home-container {
-  width: 30.5%;
+  width: 40%;
   margin: auto;
 }
 
 .home-guest-container .guest-container {
-  width: 30.5%;
+  width: 40%;
   margin: auto;
+}
+@media (min-width: 599px) {
+  .home-guest-container .home-container,
+  .home-guest-container .guest-container {
+    width: 30.5%;
+  }
 }
 
 .heading {
@@ -90,9 +96,8 @@ body {
 }
 
 .btn {
-  width: 30%;
-  min-width: 36px;
-  max-width: 45px;
+  width: 33px;
+
   height: 45px;
   font-family: inherit;
 
@@ -110,6 +115,9 @@ body {
   .btn {
     font-size: 18px;
     font-weight: 400;
+    width: 30%;
+    min-width: 36px;
+    max-width: 45px;
   }
 }
 
