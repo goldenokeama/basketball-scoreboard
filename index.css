@@ -35,12 +35,12 @@ body {
 }
 
 .home-guest-container .home-container {
-  width: 40%;
+  width: 45%;
   margin: auto;
 }
 
 .home-guest-container .guest-container {
-  width: 40%;
+  width: 45%;
   margin: auto;
 }
 @media (min-width: 599px) {
@@ -96,7 +96,8 @@ body {
 }
 
 .btn {
-  width: 33px;
+  min-width: 35px;
+  width: 25%;
 
   height: 45px;
   font-family: inherit;
